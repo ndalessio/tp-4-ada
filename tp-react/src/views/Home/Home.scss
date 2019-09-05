@@ -1,0 +1,21 @@
+.home{
+    width: 100%;
+    height: 100%;
+    background-image: url('https://raw.githubusercontent.com/Ada-IT/bootcamp-frontend/master/trabajos-practicos/tp-final/assets/plate-flight-sky-sunset_1500x801.jpeg');  
+    -webkit-box-shadow: inset 58px -76px 125px 18px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 58px -76px 125px 18px rgba(0,0,0,0.75);
+    box-shadow: inset 58px -76px 125px 18px rgba(0,0,0,0.75);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.home:before {
+    content: '';
+    position: absolute;
+    background-color: rgba(0,0,0,0.3);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}

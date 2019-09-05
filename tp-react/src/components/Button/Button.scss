@@ -1,0 +1,18 @@
+@import 'styles/abstracts/colors';
+
+.button{
+    &.item{
+        width: 60px;
+        margin: 0 auto;
+        color: $secondary-color;
+        font-size: 13px;
+        transition: 0.6s;
+        cursor: pointer;
+        &:hover{
+            color: $primary-color;
+        }
+    }
+    &.button-icon{
+        width: 50px;
+    }
+}

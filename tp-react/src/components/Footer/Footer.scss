@@ -1,0 +1,28 @@
+@import 'styles/abstracts/colors';
+@import 'styles/abstracts/fonts';
+
+.footer{
+    width: 85%;
+    height: 70px;
+    margin: 20px auto;
+    display:flex;
+    flex-direction: column;
+    position: relative;
+
+    .footer-top{
+        width: 100%;
+        display: flex;
+        .left-buttons{
+            display: flex; 
+        }
+    }
+
+    .footer-bottom{
+        width: 100%;
+        margin-top: 15px;
+        color: $secondary-color;
+        font-size: 12px;
+        font-family: $primary-font;
+        font-weight: 600;
+    }
+}

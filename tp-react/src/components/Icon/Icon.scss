@@ -1,0 +1,17 @@
+@import 'styles/abstracts/colors';
+
+.icon{
+    &.solid{
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 15px;
+        vertical-align: middle;
+        padding: 8px;
+        margin: 8px;
+        background-color: $primary-color;
+        color: $third-color;
+        font-size: 12px;
+    }
+}
