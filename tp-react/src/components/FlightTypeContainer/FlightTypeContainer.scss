@@ -1,0 +1,22 @@
+@import 'styles/abstracts/colors';
+@import 'styles/abstracts/fonts';
+
+.flight-type-container{
+    width: 300px;
+    height: 30px;
+    display: flex;
+
+    .flight-type{
+        width: 100px;
+        display: flex;
+        align-items: center;
+        margin: 3px;
+    }
+
+    p{
+        color: $primary-color;
+        font-size: 12px;
+        font-family: $primary-font;
+        margin: 3px;
+    }
+}

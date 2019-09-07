@@ -1,0 +1,20 @@
+@import 'styles/abstracts/colors';
+
+.input-container{
+
+    &.solid{
+        background-color: #ffffff00;
+        border: 0.1px solid $secondary-color;
+        color: $primary-color;
+    }
+    
+    &.small{
+        width: 130px;
+        height: 55px;
+    }
+
+    &.medium{
+        width: 150px;
+        height: 55px;
+    }
+}

@@ -12,7 +12,20 @@
             color: $primary-color;
         }
     }
+    &.search{
+        width: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 57px;
+        background-color: $forth-color;
+        color: $primary-color;
+        border-radius: 0 5px 5px 0;
+        cursor: pointer;
+    }
+    
     &.button-icon{
         width: 50px;
     }
+
 }

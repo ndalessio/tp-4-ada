@@ -3,7 +3,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './Button.scss';
 
 export const BUTTON_TYPES = {
-    ITEM: 'item'
+    ITEM: 'item',
+    SEARCH: 'search'
 }
 
 const Button = ({
