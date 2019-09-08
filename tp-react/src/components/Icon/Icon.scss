@@ -14,4 +14,31 @@
         color: $third-color;
         font-size: 12px;
     }
-}
+
+    &.light{
+        width: 14px;
+        height: 13px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 8px;
+        margin: 8px;
+        border-radius: 50%;
+        color: $primary-color;
+        background-color: $transparent-color;
+        font-size: 12px;
+        font-weight: bold;
+        transition: 0.6;
+        cursor: pointer;
+        &:hover, &:focus{
+            background-color: $fifth-color;
+        }
+    }
+
+    &.search{
+        color: $primary-color;
+        font-size: 30px;
+        margin: 5px;
+    }
+ }
+    

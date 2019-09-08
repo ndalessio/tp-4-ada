@@ -12,7 +12,10 @@
     .footer-top{
         width: 100%;
         display: flex;
-        .left-buttons{
+        align-items: center;
+        justify-content: space-between;
+
+        .left-buttons, .right-buttons{
             display: flex; 
         }
     }

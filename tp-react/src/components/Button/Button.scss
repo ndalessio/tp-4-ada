@@ -6,12 +6,25 @@
         margin: 0 auto;
         color: $secondary-color;
         font-size: 13px;
-        transition: 0.6s;
+        transition: 0.6;
         cursor: pointer;
         &:hover{
             color: $primary-color;
         }
     }
+
+    &.bold{
+        margin: 10px;
+        color: $third-color;
+        font-size:14px;
+        font-weight: 600;
+        transition: 0.6;
+        cursor: pointer;
+        &:hover{
+            color: $primary-color;
+        }
+    }
+
     &.search{
         width: 60px;
         display: flex;
@@ -24,8 +37,11 @@
         cursor: pointer;
     }
     
-    &.button-icon{
-        width: 50px;
-    }
+    // &.icon {
+    //     padding: 0;
 
+    //     .button-icon {
+    //         margin: 5px;
+    //     }
+    // }
 }

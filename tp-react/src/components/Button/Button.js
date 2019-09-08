@@ -4,6 +4,7 @@ import './Button.scss';
 
 export const BUTTON_TYPES = {
     ITEM: 'item',
+    BOLD: 'bold',
     SEARCH: 'search'
 }
 

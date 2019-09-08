@@ -1,5 +1,7 @@
 import React from 'react';
-
+import Input, { INPUT_KIND } from 'components/Input/Input';
+import Icon from 'components/Icon/Icon';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './InputContainer.scss';
 
 export const INPUTCONTAINER_COLORS = {
@@ -13,10 +15,23 @@ export const INPUTCONTAINER_SIZES = {
 }
 
 const InputContainer = ({ 
+    kind,
+    type,
+    icon,
     color,
     size,
     className = ''}) => (
-    <div className={`input-container ${className} ${color} ${size}`}></div>
+    <div className={`input-container ${className} ${color} ${size}`}>
+        {
+            icon && 
+            <FontAwesomeIcon 
+                icon={icon} 
+                className='button-icon' 
+            />
+        }
+        <Input className={`${kind}`} ></Input>
+        
+    </div>
 )
 
 export default InputContainer

@@ -1,0 +1,42 @@
+@import 'styles/abstracts/colors';
+@import 'styles/abstracts/fonts';
+
+.currency-modal{
+    width: 780px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    position: absolute;
+    left: 79px;
+    z-index: 1;
+    padding: 10px;
+
+    .title-currencies{
+        color: black;
+        font-family: $primary-font;
+        font-size: 12px;
+        font-weight: bold;
+        margin: 10px;
+        margin-left: 37px;
+    }
+
+    .popular-currencies{
+        width: 710px;
+        height: 100px;
+        border-bottom: 0.3px solid $third-color;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .all-currencies{
+        width: 710px;
+        height: 400px;
+        margin: 0 auto;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}

@@ -1,63 +1,64 @@
 import React from 'react';
-import InputContainer, { INPUTCONTAINER_COLORS, INPUTCONTAINER_SIZES} from 'components/InputContainer/InputContainer';
+import InputContainer, { INPUTCONTAINER_COLORS, INPUTCONTAINER_SIZES } from 'components/InputContainer/InputContainer';
 import Button, { BUTTON_TYPES } from 'components/Button/Button';
 import Input, { INPUT_KIND } from 'components/Input/Input';
-import Icon from 'components/Icon/Icon';
-import { faArrowRight, faCalendar } from '@fortawesome/free-solid-svg-icons';
+import Icon, { ICON_TYPES } from 'components/Icon/Icon';
+import { faArrowRight, faMapMarkedAlt, faUsers } from '@fortawesome/free-solid-svg-icons';
+import { faCalendarAlt } from '@fortawesome/free-regular-svg-icons';
 import './SearchBar.scss';
 
 const SearchBar = () => (
     <div className='search-bar'>
-            <InputContainer
+        <InputContainer
             color={INPUTCONTAINER_COLORS.SOLID}
             size={INPUTCONTAINER_SIZES.MEDIUM}
-            >
-                <Icon icon={faCalendar} />
-                <Input kind={INPUT_KIND.SEARCH}/>
+            kind={INPUT_KIND.SEARCH}
+            type={ICON_TYPES.SEARCH}
+            icon={faMapMarkedAlt}
+        >
+            <Input name='departure' placeholder='Departure' type='text' />
+        </InputContainer>
 
-            </InputContainer>
-
+        <InputContainer
+            color={INPUTCONTAINER_COLORS.SOLID}
+            size={INPUTCONTAINER_SIZES.MEDIUM}
+            kind={INPUT_KIND.SEARCH}
+            type={ICON_TYPES.SEARCH}
+            icon={faMapMarkedAlt}
+        >
             
-{/*                 
-            <InputContainer
-                color={INPUTCONTAINER_COLORS.SOLID}
-                size={INPUTCONTAINER_SIZES.MEDIUM}
-            >
-                <Icon icon={faCalendar} />
-                <Input name='arrival' placeholder='Arrival' type='text'/>
-            </InputContainer>
-    
-            <InputContainer
-            color={INPUTCONTAINER_COLORS.SOLID}
-            size={INPUTCONTAINER_SIZES.MEDIUM}
-            >
-                <Icon icon={faCalendar} />
-                <Input name='departure' placeholder='Departure' type='text'/>
-            </InputContainer>
-                
-            <InputContainer
+            <Input name='arrival' placeholder='Arrival' type='text' />
+        </InputContainer>
+
+        <InputContainer
             color={INPUTCONTAINER_COLORS.SOLID}
             size={INPUTCONTAINER_SIZES.SMALL}
-            >
-                <Icon icon={faCalendar} />
-                <Input name='check-in' placeholder='Check-in' type='text'/>
-            </InputContainer>
-                
-            <InputContainer
+            kind={INPUT_KIND.SEARCH}
+            type={ICON_TYPES.SEARCH}
+            icon={faCalendarAlt}
+        >
+            <Input name='check-in' placeholder='Check-in' type='date' />
+        </InputContainer>
+
+        <InputContainer
             color={INPUTCONTAINER_COLORS.SOLID}
             size={INPUTCONTAINER_SIZES.SMALL}
-            >
-                <Icon icon={faCalendar} />
-                <Input name='check-out' placeholder='Check-out' type='text'/>
-            </InputContainer>
-                
-            <InputContainer
+            kind={INPUT_KIND.SEARCH}
+            type={ICON_TYPES.SEARCH}
+            icon={faCalendarAlt}
+        >
+            <Input name='check-out' placeholder='Check-out' type='date' />
+        </InputContainer>
+
+        <InputContainer
             color={INPUTCONTAINER_COLORS.SOLID}
             size={INPUTCONTAINER_SIZES.SMALL}
-            >
-                <Icon icon={faCalendar} />
-                <Input name='departure' placeholder='Departure' type='text'/>
-            </InputContainer> */}
+            kind={INPUT_KIND.SEARCH}
+            type={ICON_TYPES.SEARCH}
+            icon={faUsers}
+        >
+            <Input name='passangers' placeholder='Passangers' type='' />
+        </InputContainer>
 
         <Button
             type={BUTTON_TYPES.SEARCH}

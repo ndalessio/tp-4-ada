@@ -4,11 +4,12 @@
     width: 85%;
     height: 50px;
     display: flex;
+    justify-content: space-between;
     position: relative;
     margin: 0 auto;
     border-bottom: 0.5px solid $secondary-color;
 
-    .left-buttons{
+    .left-buttons, .right-buttons{
         display: flex;
         align-items: center;
     }
