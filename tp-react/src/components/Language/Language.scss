@@ -1,0 +1,30 @@
+@import 'styles/abstracts/colors';
+@import 'styles/abstracts/fonts';
+
+.languages{
+    width: 150px;
+    height: 27px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    font-size:12.5px;
+    transition: 0.3;
+    cursor: pointer;
+    &:hover{
+        background-color: $third-color-light;
+    }
+    &:focus{
+        background-color: $fifth-color;
+    }
+    // .flag{
+
+    // }
+    .language{
+        width:150px;
+        margin: 3px;
+        color:$third-color;
+        &:focus{
+            color: $primary-color;
+        }
+    }
+}

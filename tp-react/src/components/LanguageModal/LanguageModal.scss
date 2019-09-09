@@ -1,0 +1,32 @@
+@import 'styles/abstracts/colors';
+@import 'styles/abstracts/fonts';
+
+.language-modal{
+    width: 800px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color:$primary-color;
+    position: absolute;
+    top: 55px;
+    z-index: 1;
+    padding: 10px;
+    display: none;
+    
+    .title-languages{
+        color: black;
+        font-family: $primary-font;
+        font-size: 14px;
+        font-weight: bold;
+        margin: 10px;
+        margin-left: 20px;
+    } 
+    .languages-container{
+        width: 800px;
+        height: 350px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}

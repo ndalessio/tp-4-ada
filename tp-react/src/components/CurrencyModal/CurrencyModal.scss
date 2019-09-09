@@ -6,14 +6,16 @@
     height: 550px;
     display: flex;
     flex-direction: column;
-    background-color: #ffffff;
+    background-color: $primary-color;
     position: absolute;
-    left: 79px;
+    left: 0px;
+    top: 55px;
     z-index: 1;
     padding: 10px;
+    display: none;
 
     .title-currencies{
-        color: black;
+        color:$sixth-color;
         font-family: $primary-font;
         font-size: 12px;
         font-weight: bold;
@@ -37,6 +39,6 @@
         padding: 10px;
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
+        flex-wrap: wrap; 
     }
 }

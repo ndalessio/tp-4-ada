@@ -1,6 +1,9 @@
 import React from 'react';
 import Button, { BUTTON_TYPES } from 'components/Button/Button';
 import { faUser } from '@fortawesome/free-solid-svg-icons';
+import CurrencyModal from 'components/CurrencyModal/CurrencyModal';
+import LanguageModal from 'components/LanguageModal/LanguageModal';
+import AccountMenu from 'components/AccountMenu/AccountMenu';
 import './Nav.scss';
 
 const Nav = () => (
@@ -42,6 +45,9 @@ const Nav = () => (
             text='My Account'
             />
         </div>
+        <CurrencyModal></CurrencyModal>
+        <LanguageModal></LanguageModal>
+        <AccountMenu></AccountMenu>
     </div>
 )
 
