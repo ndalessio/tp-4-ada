@@ -11,27 +11,27 @@ export const INPUTCONTAINER_COLORS = {
 
 export const INPUTCONTAINER_SIZES = {
     SMALL: 'small',
-    MEDIUM:'medium'
+    MEDIUM: 'medium',
+    SMALLFLIGHTS: 'small-flights',
+    MEDIUMFLIGHTS: 'medium-flights'
 }
 
-const InputContainer = ({ 
+const InputContainer = ({
     kind,
-    type,
     icon,
     color,
     size,
-    className = ''}) => (
-    <div className={`input-container ${className} ${color} ${size}`}>
-        {
-            icon && 
-            <FontAwesomeIcon 
-                icon={icon} 
-                className='button-icon' 
-            />
-        }
-        <Input className={`${kind}`} ></Input>
-        
-    </div>
-)
+    className = '' }) => (
+        <div className={`input-container ${className} ${color} ${size}`}>
+            {
+                icon &&
+                <FontAwesomeIcon
+                    icon={icon}
+                    className='button-icon'
+                />
+            }
+            <Input className={`${kind}`} ></Input>
+        </div>
+    )
 
 export default InputContainer

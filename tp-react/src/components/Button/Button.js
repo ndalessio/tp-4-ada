@@ -5,7 +5,8 @@ import './Button.scss';
 export const BUTTON_TYPES = {
     ITEM: 'item',
     BOLD: 'bold',
-    SEARCH: 'search'
+    SEARCH: 'search',
+    SEARCHFLIGHTS: 'search-flights'
 }
 
 const Button = ({

@@ -37,6 +37,19 @@
         cursor: pointer;
     }
     
+    &.search-flights{
+        width: 55px;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: $fifth-color;
+        color: $primary-color;
+        font-size: 12.5px;
+        border-radius: 3px;
+        margin: 3px;
+        cursor: pointer;
+    }
     // &.icon {
     //     padding: 0;
 

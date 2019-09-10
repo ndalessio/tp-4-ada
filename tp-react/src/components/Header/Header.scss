@@ -3,15 +3,16 @@
     background-image: url('https://raw.githubusercontent.com/Ada-IT/bootcamp-frontend/master/trabajos-practicos/tp-final/assets/big-ben-bridge-castle-city-460672_1500x800.jpg');
     background-position: center center;
     background-size: cover;
-    filter: blur(6px);
+    // filter: blur(6px);
+    position: relative;
 }
 
-.header:before {
-    content: '';
-    position: absolute;
-    background-color: rgba(0,0,0,0.4);
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
+// .header:before {
+//     content: '';
+//     position: absolute;
+//     background-color: rgba(0,0,0,0.4);
+//     top: 0;
+//     bottom: 0;
+//     left: 0;
+//     right: 0;
+// }

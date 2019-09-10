@@ -6,10 +6,16 @@ export const INPUT_KIND = {
     SEARCH: 'search'
 }
 
+export const INPUT_COLOR = {
+    BLUE: 'blue',
+    ORANGE: 'orange'
+}
+
 const Input = ({ 
     kind,
+    color,
     className = ''}) => (
-    <input className={`input ${className} ${kind}`}/>
+    <input className={`input ${className} ${kind} ${color}`}/>
 )
 
 export default Input

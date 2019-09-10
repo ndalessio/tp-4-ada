@@ -3,9 +3,16 @@
 .input-container{
 
     &.solid{
-        background-color: #ffffff00;
+        background-color: $transparent-color;
         border: 0.1px solid $secondary-color;
         color: $primary-color;
+    }
+
+    &.traslucid{
+        background-color: $third-color;
+        border-radius: 3px;
+        color: $primary-color;
+        margin: 3px;
     }
     
     &.small{
@@ -16,5 +23,24 @@
     &.medium{
         width: 170px;
         height: 55px;
+    }
+
+    &.small-flights{
+        width: 148px;
+        height: 45px;
+        
+    }
+
+    &.medium-flights{
+        width: 150px;
+        height: 45px;
+    }
+
+    .input-title{
+        font-size: 11px;
+        // position: relative;
+        // left: 5px;
+        // bottom: 35px;
+        // margin: 3px;
     }
 }

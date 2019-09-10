@@ -8,7 +8,7 @@ import Footer from 'components/Footer/Footer';
 const Home = () => (
     <div className='home'>
         <Nav></Nav>
-        <SearchContainer></SearchContainer>
+        <SearchContainer title='Cheap Flights Best Deals'></SearchContainer>
         <FeaturesContainer></FeaturesContainer>
         <Footer></Footer>
     </div>
