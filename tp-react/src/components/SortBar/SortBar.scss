@@ -1,0 +1,47 @@
+@import 'styles/abstracts/colors';
+@import 'styles/abstracts/fonts';
+
+.sort-bar{
+    width: 500px;
+    height: 50px;
+    display: flex;
+    background-color: $primary-color;
+    
+    .sort-item{
+        width: 90px;
+        height: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-right: 0.5px solid $secondary-color;
+        font-family: $primary-font;
+        font-size: 10px;
+        cursor:pointer;
+
+        .sort-category{
+            font-family: $primary-font;
+            font-size: 10px;
+            margin: 1px;
+        }
+
+        .sort-variables{
+            font-family: $primary-font;
+            font-size: 8px;
+            margin: 0px;
+        }
+    }
+    .sort-item-more{
+        width: 90px;
+        height: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family: $primary-font;
+        font-size: 10px;
+        margin: 1px;
+        cursor:pointer;
+
+    }
+}

@@ -1,0 +1,16 @@
+@import 'styles/abstracts/colors';
+@import 'styles/abstracts/fonts';
+
+.filter-container{
+    width: 170px;
+    border-bottom: 0.5 solid $sixth-color;
+    margin: 5px;
+    margin-bottom: 10px;
+
+    .filter-title{
+        color: $sixth-color;
+        font-family: $primary-font;
+        font-size: 14px;
+        margin: 3px;
+    }
+}
