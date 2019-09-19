@@ -6,7 +6,8 @@ export const BUTTON_TYPES = {
     ITEM: 'item',
     BOLD: 'bold',
     SEARCH: 'search',
-    SEARCHFLIGHTS: 'search-flights'
+    SEARCHFLIGHTS: 'search-flights',
+    BOOK: 'book'
 }
 
 const Button = ({

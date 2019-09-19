@@ -1,0 +1,59 @@
+@import 'styles/abstracts/colors';
+
+.result{
+    width: 500px;
+    height: 200px;
+    display: flex;
+    background-color: $primary-color;
+    margin: 10px 0px;
+
+        .flights-go-land-container{
+            width: 80%;
+        }
+
+        .go-flight, .return-flight{
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .logo-airline{
+            width: 50px;
+            height: 50px;
+        }
+
+        .take-off-info, .land-info{
+            display: flex;
+            flex-direction: column;
+            margin: 20px;
+
+            .time{
+                font-size: 15px;
+                font-weight: bold;
+            }
+            .place{
+                font-size: 10px;
+            }
+            .date{
+                font-size: 7px;                
+            }
+        }
+
+        .price-info{
+            width: 20%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            
+            .price{
+                font-size: 15px;
+                font-weight: bold;
+            }
+            .flight-class{
+                font-size: 7px; 
+            }
+
+            // Button Book Now
+        }
+
+}
